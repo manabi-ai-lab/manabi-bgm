@@ -33,6 +33,7 @@ manabi-ai-lab のフリーBGMシリーズ。配信・動画の**会話用BGM**�
 | YouTube投稿の設定 | [`docs/YOUTUBE.md`](docs/YOUTUBE.md) |
 | BGMの利用条件 | [`LICENSE-BGM.md`](LICENSE-BGM.md) |
 | ChatGPTから制作情報を回収する指示書 | [`docs/PROMPT_GPT.md`](docs/PROMPT_GPT.md) |
+| Codexに復元〜Release作成を任せる指示書 | [`docs/PROMPT_CODEX.md`](docs/PROMPT_CODEX.md) |
 
 ---
 
