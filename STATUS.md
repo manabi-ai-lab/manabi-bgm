@@ -14,14 +14,19 @@
 | 高画質版の所在 | ✅ **Google Driveの8分割バックアップから復元・SHA-256照合済み** |
 | リポジトリ | ✅ **作成済み**（<https://github.com/manabi-ai-lab/manabi-bgm>）。中身もpush済み |
 | Release | ✅ 公開済み（`v1.0.0-after-school-talk-room`） |
-| YouTube | 未投稿。投稿文と設定は確定済み |
+| YouTube | ✅ **一般公開**（2026-08-06） |
 | サムネイル | ✅ Drive原本を `assets/thumbnails/after-school-talk-room.jpg` に配置済み |
 
 ---
 
 ## 次の一歩
 
-**YouTube限定公開投稿（あっきーがStudioで実施）** → [`docs/YOUTUBE.md`](docs/YOUTUBE.md)
+第1作は**完走**（2026-08-06）。次は以下のどちらか。
+
+1. **YouTube Shortsの投稿**（動画は制作済み。投稿文は [`tracks/after-school-talk-room/COPYPASTE.md`](tracks/after-school-talk-room/COPYPASTE.md) の STEP 4-5）
+2. **第2作の制作**（[`docs/PLAYBOOK.md`](docs/PLAYBOOK.md) の工程順。`templates/` から `tracks/<slug>/` を作るところから）
+
+1週間後にショートの維持率を確認して [`SHORTS.md`](tracks/after-school-talk-room/SHORTS.md) の記録欄に残す。100%超＝ループ視聴が取れていれば設計成功。
 
 ---
 
@@ -100,6 +105,19 @@
 
 - YouTube へ本編を**限定公開**で投稿（旧タイトルのまま。公開前にSEO版タイトルへ変更予定）
 - 次の一歩：Studio設定の確認（合成コンテンツ・カテゴリ・自動チャプター）→ 5点再生チェック → SEO版タイトルに変更 → 一般公開
+
+### 2026-08-06 — 第1作 完走 🎉
+
+- YouTube本編を**一般公開**（https://youtu.be/i_RX6gUtuno）。SEO版タイトルで公開
+- これで第1作『放課後トークルーム』の全工程が完了：
+  復元・照合 → リポジトリ整備 → Release公開 → YouTube公開 → ショート制作 → TikTok投稿
+- 再利用のため `.claude/skills/bgm-release/`（Claude用スキル）と
+  `AGENTS.md`（Codex等がこのリポジトリで作業するときの標準指示）を整備
+- 未了：YouTube Shortsの投稿、一時ブランチ `tmp-tiktok-upload` の削除
+
+**次の一歩**
+
+- Shorts投稿 または 第2作の制作
 
 ### （次の記入欄）
 
