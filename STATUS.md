@@ -11,18 +11,17 @@
 | 第1作 | **放課後トークルーム**で確定。1時間・会話用BGM |
 | 音源 | 完成（Suno v2）。1時間版まで書き出し済み |
 | 映像 | 完成（1264×720 / 24fps / H.264、ループアニメーション） |
-| 高画質版の所在 | **Google Drive に8分割で退避済み**。復元は未実施 |
+| 高画質版の所在 | ✅ **Google Driveの8分割バックアップから復元・SHA-256照合済み** |
 | リポジトリ | ✅ **作成済み**（<https://github.com/manabi-ai-lab/manabi-bgm>）。中身もpush済み |
-| Release | 未作成（`v1.0.0-after-school-talk-room`） |
+| Release | ✅ 公開済み（`v1.0.0-after-school-talk-room`） |
 | YouTube | 未投稿。投稿文と設定は確定済み |
-| サムネイル | Drive にある。リポジトリへは未配置 |
+| サムネイル | ✅ Drive原本を `assets/thumbnails/after-school-talk-room.jpg` に配置済み |
 
 ---
 
 ## 次の一歩
 
-**あっきーのPCで高画質版を復元して照合する** → [`docs/RESTORE.md`](docs/RESTORE.md)
-その後は Release作成（[`docs/RELEASE.md`](docs/RELEASE.md)）→ YouTube投稿（[`docs/YOUTUBE.md`](docs/YOUTUBE.md)）。
+**YouTube限定公開投稿（あっきーがStudioで実施）** → [`docs/YOUTUBE.md`](docs/YOUTUBE.md)
 
 ---
 
@@ -77,6 +76,23 @@
 **次の一歩**
 
 - あっきー：`manabi-bgm` リポジトリを作る（そのあとの push は Claude が実行できる）
+
+---
+
+### 2026-08-06 — Codex
+
+**やったこと**
+
+- Driveの8分割バックアップを番号順に単純バイナリ結合し、高画質版MP4を復元
+- 復元後MP4が 679,926,904 バイト、SHA-256 `118de0f31bca5de2386e4099df674d67cc40a59dbf9ddf11443b887211605cfc` と完全一致することを確認
+- GitHub Release `v1.0.0-after-school-talk-room` を公開し、アセット名をASCIIの `after-school-talk-room-1h-hq.mp4` に統一
+- Releaseから別名で再ダウンロードし、サイズとSHA-256が原本と完全一致することを確認
+- Driveのサムネイルを無変換で `assets/thumbnails/after-school-talk-room.jpg` に配置（265,782 バイト）
+- Release本文、配布状況、チェックサム記録、Release手順を更新
+
+**次の一歩**
+
+- YouTube限定公開投稿（あっきーがStudioで実施）
 
 ---
 

@@ -17,7 +17,7 @@ manabi-ai-lab BGMシリーズ **第1作**。
 | 映像 | 少し動くループアニメーション |
 | 音楽 | Suno（Pro / Premier 契約期間中に制作） |
 | 制作 | あっきー（manabi-ai-lab） |
-| 状態 | **公開準備中**（復元・Release・YouTube投稿が未完了） |
+| 状態 | **公開準備中**（復元・GitHub Release公開済み。YouTube投稿が未完了） |
 
 ---
 
@@ -38,9 +38,9 @@ manabi-ai-lab BGMシリーズ **第1作**。
 | 配布物 | 置き場所 | 状態 |
 | --- | --- | --- |
 | 本編（視聴） | YouTube | ⬜ 未投稿 |
-| 高画質MP4（約649MiB） | GitHub Release `v1.0.0-after-school-talk-room` | ⬜ 未作成 |
+| 高画質MP4（約649MiB） | GitHub Release `v1.0.0-after-school-talk-room` | ✅ 公開済み |
 | 分割バックアップ（8×.bin） | [Google Drive](https://drive.google.com/drive/folders/1BwpEpgVjfd5aLJRp1fL8SwKiKnxt-Hpp) | ✅ 保管済み |
-| サムネイル | [Google Drive](https://drive.google.com/file/d/1cviVqBQ1hGlBI7BaEy-AX816QVMoSRHv/view) / `assets/thumbnails/` | ⚠️ リポジトリへ未配置 |
+| サムネイル | [Google Drive](https://drive.google.com/file/d/1cviVqBQ1hGlBI7BaEy-AX816QVMoSRHv/view) / `assets/thumbnails/` | ✅ リポジトリ配置済み |
 
 ---
 

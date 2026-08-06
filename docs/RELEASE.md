@@ -67,7 +67,7 @@ Release からダウンロードし直して、**バイト列が変わってい�
 
 ```sh
 curl -L -o check.mp4 \
-  "https://github.com/manabi-ai-lab/manabi-bgm/releases/download/v1.0.0-after-school-talk-room/%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%83%88%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%A0_1%E6%99%82%E9%96%93_%E9%AB%98%E7%94%BB%E8%B3%AA%E7%89%88.mp4"
+  "https://github.com/manabi-ai-lab/manabi-bgm/releases/download/v1.0.0-after-school-talk-room/after-school-talk-room-1h-hq.mp4"
 
 shasum -a 256 check.mp4
 # => 118de0f31bca5de2386e4099df674d67cc40a59dbf9ddf11443b887211605cfc
@@ -83,23 +83,24 @@ Release のアセットURLは、**そのままスマホでタップして再生�
 CloudFront などを別に立てなくても、これで用は足ります。
 
 ```
-https://github.com/manabi-ai-lab/manabi-bgm/releases/download/v1.0.0-after-school-talk-room/放課後トークルーム_1時間_高画質版.mp4
+https://github.com/manabi-ai-lab/manabi-bgm/releases/download/v1.0.0-after-school-talk-room/after-school-talk-room-1h-hq.mp4
 ```
 
 - ✅ 再エンコードなし。**アップロードしたバイト列がそのまま返る**
 - ✅ 認証不要（Publicリポジトリのため）
 - ✅ CDN 経由で配信される
-- ⚠️ ファイル名が日本語なので、リンクとして貼るときは上のURLエンコード済みの形が確実です
+- ✅ アセット名はASCIIなので、URLをそのままリンクとして利用できます
 
-日本語ファイル名を避けたい場合は、アップロード時に
-`after-school-talk-room-1h-hq.mp4` へ**リネームだけ**しても構いません（中身は変わらないのでハッシュは同じ）。
+Release上のアセット名は `after-school-talk-room-1h-hq.mp4` に統一します。ファイル名だけを変更しても中身は変わらないので、SHA-256は同じです。
 
 ---
 
 ## ファイル名についての注意
 
-**リネームはしてよい。再エンコードはしてはいけない。**
-リネームしてもバイト列は変わらないので SHA-256 は一致したままです。
+**GitHub は Release アセット名の非ASCII文字を除去するため、アセット名はASCIIにします。**
+
+**ダウンロード後のリネームはしてよい。再エンコードはしてはいけない。**
+`after-school-talk-room-1h-hq.mp4` を `放課後トークルーム_1時間_高画質版.mp4` にリネームしてもバイト列は変わらないので、SHA-256 は一致したままです。
 逆に、少しでも変換をかけると `118de0f3…` は一致しなくなります。
 
 ---
