@@ -130,7 +130,7 @@ URL：この動画のURL
 
 | 項目 | 値 |
 | --- | --- |
-| 限定公開URL | https://youtu.be/i_RX6gUtuno |
+| 公開URL | https://youtu.be/i_RX6gUtuno |
 | 投稿日 | 2026-08-06 |
-| 一般公開に切り替えた日 | |
+| 一般公開に切り替えた日 | 2026-08-06 |
 | 再生リストURL | |

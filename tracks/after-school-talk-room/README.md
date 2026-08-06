@@ -37,7 +37,7 @@ manabi-ai-lab BGMシリーズ **第1作**。
 
 | 配布物 | 置き場所 | 状態 |
 | --- | --- | --- |
-| 本編（視聴） | YouTube | 🔶 限定公開で検品中（2026-08-06投稿） |
+| 本編（視聴） | [YouTube](https://youtu.be/i_RX6gUtuno) | ✅ **一般公開**（2026-08-06） |
 | 高画質MP4（約649MiB） | GitHub Release `v1.0.0-after-school-talk-room` | ✅ 公開済み |
 | 分割バックアップ（8×.bin） | [Google Drive](https://drive.google.com/drive/folders/1BwpEpgVjfd5aLJRp1fL8SwKiKnxt-Hpp) | ✅ 保管済み |
 | サムネイル | [Google Drive](https://drive.google.com/file/d/1cviVqBQ1hGlBI7BaEy-AX816QVMoSRHv/view) / `assets/thumbnails/` | ✅ リポジトリ配置済み |

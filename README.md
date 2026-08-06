@@ -15,7 +15,7 @@ manabi-ai-lab のフリーBGMシリーズ。配信・動画の**会話用BGM**�
 
 | # | 曲名 | 長さ | 状態 | Release | YouTube |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [放課後トークルーム](tracks/after-school-talk-room/) | 1時間 | 公開準備中 | `v1.0.0-after-school-talk-room`（未作成） | 未投稿 |
+| 1 | [放課後トークルーム](tracks/after-school-talk-room/) | 1時間 | ✅ 公開済み | [v1.0.0-after-school-talk-room](https://github.com/manabi-ai-lab/manabi-bgm/releases/tag/v1.0.0-after-school-talk-room) | [視聴](https://youtu.be/i_RX6gUtuno) |
 
 新しい曲を足すときは [`templates/`](templates/) をコピーして `tracks/<slug>/` を作ります。
 
